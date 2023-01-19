@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite --open"
+    "dev": "vite --open",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,12 @@
   },
   "homepage": "https://github.com/EwertonHecsley/react#readme",
   "dependencies": {
+    "eslint-config-trybe-frontend": "^1.5.0",
     "nanoid": "^4.0.0",
     "vite": "^4.0.4"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  }
 }
