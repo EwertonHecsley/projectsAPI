@@ -13,7 +13,9 @@ h1 span{
 }
 
 .div-mae{
-    margin-top: 5%
+    margin-top: 5%;
+    display: flex;
+    width: 100vh;
 }
 
 .cx-central{
