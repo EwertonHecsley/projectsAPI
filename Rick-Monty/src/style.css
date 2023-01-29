@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.topo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    opacity: 25%;
+    margin-top: 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+h1 span{
+    color: #c7fa6c;
+}
+
+.nome-personagem{
+    display: flex;
+    font-size: 80px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+button{
+    background-color: #c7fa6c;
+    border-radius: 20px;
+    height: 45px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+    transition: 200ms linear; 
+}
+
+.cx-personagem{
+    border: solid 2px #c7fa6c;
+    border-radius: 10px;
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.cx-personagem img{
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    height: 50%;
+    padding-bottom: 5px;
+}
