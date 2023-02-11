@@ -1,3 +1,3 @@
-# react
+# Repositório de pequenos projetos de consumos de API's
 
-Repositório para upload de projetos em React
+
